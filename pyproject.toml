@@ -16,14 +16,23 @@ classifiers = [
     "License :: OSI Approved :: MIT License"
 ]
 dependencies = [
+    "jupyterlab>=4.4.3",
     "loguru",
+    "matplotlib>=3.10.3",
     "mkdocs",
+    "numpy>=2.2.6",
+    "pandas>=2.3.0",
     "pip",
+    "plotly>=6.1.2",
+    "pyarrow>=20.0.0",
     "pytest",
     "python-dotenv",
     "ruff",
+    "scikit-learn>=1.7.0",
+    "seaborn>=0.13.2",
     "tqdm",
     "typer",
+    "xgboost>=3.0.2",
 ]
 requires-python = "~=3.13.0"
 
